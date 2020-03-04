@@ -2,9 +2,23 @@
  * YOUR CODE HERE *
  ******************/
 
-
-
-
+ const call = function(once) {
+  console.log('calls the given function one time');
+  let return1 = once()
+  return1
+   }
+  
+   const callTwice= function(twice){
+    console.log('calls the given function two times');
+    let return2= twice() 
+    let return3= twice()
+   }
+   const callXTimes= function(multiple, thrice){
+     console.log('calls the given number of times');
+     for(let i=; i< ; i++)callXTimes(i);
+  
+     }
+     
 /********************************
  * OUR CODE HERE - DON'T TOUCH! *
  ********************************/
